@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bf538fe7.css",
+    "main.js": "/static/js/main.44db63de.js",
+    "static/media/ChandanPandey-Resume.pdf": "/static/media/ChandanPandey-Resume.ae904055f76679a505e6.pdf",
+    "static/media/HeroImage.jpg": "/static/media/HeroImage.dc063fa86bc8e78ba72b.jpg",
+    "index.html": "/index.html",
+    "main.bf538fe7.css.map": "/static/css/main.bf538fe7.css.map",
+    "main.44db63de.js.map": "/static/js/main.44db63de.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf538fe7.css",
+    "static/js/main.44db63de.js"
+  ]
+}
