@@ -85,7 +85,7 @@ const Copyright = styled.p`
 
 function Footer() {
   return (
-    <FooterContainer>
+    <FooterContainer id="Footer">
       <FooterWrapper>
         <Logo>Chandan Pandey</Logo>
         <Nav>

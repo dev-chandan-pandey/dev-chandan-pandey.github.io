@@ -156,15 +156,15 @@ const Statistics = () => {
   const [open, setOpen] = React.useState(false);
 
   return (
-    <Container id="statistics">
+    <Container id="Stats">
       <Wrapper>
         <Title>Statistics</Title>
         <StatisticsBox>
           <Desc>
-            <StatisticsImage src={Bio.githubLanguge} alt="" />
+            <StatisticsImage id="github-top-langs" src={Bio.githubLanguge} alt="top-languages" />
           </Desc>
           <Desc>
-            <StatisticsImage src={Bio.githubStats} alt="" />
+            <StatisticsImage id="github-stats-cart" src={Bio.githubStats} alt="" />
           </Desc>
 
           <Desc>

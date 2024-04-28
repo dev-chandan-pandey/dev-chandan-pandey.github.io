@@ -84,10 +84,11 @@ const Projects = ({ openModal, setOpenModal }) => {
             </ToggleButton>
           )}
         </ToggleButtonGroup> */}
-        <CardContainer>
+        <CardContainer className="project-cart">
           {toggle === "all" &&
             projects.map((project) => (
               <ProjectCard
+              
                 project={project}
                 openModal={openModal}
                 setOpenModal={setOpenModal}
@@ -97,6 +98,7 @@ const Projects = ({ openModal, setOpenModal }) => {
             .filter((item) => item.category == toggle)
             .map((project) => (
               <ProjectCard
+              
                 project={project}
                 openModal={openModal}
                 setOpenModal={setOpenModal}
