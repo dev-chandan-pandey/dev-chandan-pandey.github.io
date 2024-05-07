@@ -168,10 +168,10 @@ const Statistics = () => {
           </Desc>
 
           <Desc>
-            <StatisticsImage src={Bio.githubStreak} alt="" />
+            <StatisticsImage id="github-streak-stats" src={Bio.githubStreak} alt="" />
           </Desc>
           <Desc>
-            <StatisticsImage src={Bio.githubCalendar} alt="" />
+            <StatisticsImage  src={Bio.githubCalendar} alt="" />
           </Desc>
           <Desc></Desc>
         </StatisticsBox>
@@ -188,3 +188,4 @@ const Statistics = () => {
 };
 
 export default Statistics;
+

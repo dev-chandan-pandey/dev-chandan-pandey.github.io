@@ -22,7 +22,7 @@ import { Desc } from "../Education";
 
 const HeroSection = () => {
   return (
-    <div id="about">
+    <div id="about" class="about section">
       <HeroContainer>
         <HeroBg>
           <HeroBgAnimation />
