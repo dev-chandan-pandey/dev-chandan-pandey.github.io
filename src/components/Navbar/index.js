@@ -162,7 +162,8 @@ import {
   MobileLink,
   CheckResumeNav,
 } from "./NavbarStyledComponent";
-import resume from "../resume/ChandanPandey-Resume.pdf";
+
+import resume from "../resume/chandanresume.pdf";
 import { DiCssdeck } from "react-icons/di";
 import { FaBars } from "react-icons/fa";
 import { Bio } from "../../data/constants";
@@ -221,7 +222,7 @@ const Navbar = () => {
             id="contact-github"
             onClick={() => {
               window.open(
-                "https://drive.google.com/file/d/1wQwCSswplo37SiD7DH9zTeuitGdcHzjp/view?usp=sharing",
+                "https://drive.google.com/file/d/1tbPhCh8zLSg4fxRsVtqUr46vdyyYs-mQ/view?usp=sharing",
                 "_blank"
               );
             }}
@@ -279,7 +280,7 @@ const Navbar = () => {
               download
               onClick={() => {
                 window.open(
-                  "https://drive.google.com/file/d/1wQwCSswplo37SiD7DH9zTeuitGdcHzjp/view?usp=sharing",
+                  "https://drive.google.com/file/d/1tbPhCh8zLSg4fxRsVtqUr46vdyyYs-mQ/view?usp=sharing",
                   "_blank"
                 );
               }}
