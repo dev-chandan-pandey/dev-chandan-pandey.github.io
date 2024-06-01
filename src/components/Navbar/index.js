@@ -73,7 +73,7 @@
 //             id="contact-github"
 //             onClick={() => {
 //               window.open(
-//                 "https://drive.google.com/file/d/1wQwCSswplo37SiD7DH9zTeuitGdcHzjp/view?usp=sharing",
+//                 "https://drive.google.com/file/d/195QipUmiaaLlVt5gangiHiiijb_gCW4c/view?usp=drive_link",
 //                 "_blank"
 //               );
 //             }}
@@ -131,7 +131,7 @@
 //               download
 //               onClick={() => {
 //                 window.open(
-//                   "https://drive.google.com/file/d/1wQwCSswplo37SiD7DH9zTeuitGdcHzjp/view?usp=sharing",
+//                   "https://drive.google.com/file/d/195QipUmiaaLlVt5gangiHiiijb_gCW4c/view?usp=drive_link",
 //                   "_blank"
 //                 );
 //               }}
