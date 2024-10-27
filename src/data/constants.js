@@ -4,8 +4,9 @@ export const Bio = {
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/dev-chandan-pandey",
-  resume:
-    "https://drive.google.com/file/d/1tbPhCh8zLSg4fxRsVtqUr46vdyyYs-mQ/view?usp=drive_link",
+  // resume:
+  //   "https://drive.google.com/file/d/1tbPhCh8zLSg4fxRsVtqUr46vdyyYs-mQ/view?usp=drive_link",
+  resume:"https://drive.google.com/file/d/15wMnOnXLv1qopGv105kC33qtSFUVn3oQ/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/erchandanpandey/",
   insta: "https://www.instagram.com/chandanpandey__/",
   // facebook: "https://www.facebook.com/m.geetesh/",

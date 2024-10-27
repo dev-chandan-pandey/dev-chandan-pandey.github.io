@@ -222,7 +222,8 @@ const Navbar = () => {
             id="contact-github"
             onClick={() => {
               window.open(
-                "https://drive.google.com/file/d/1tbPhCh8zLSg4fxRsVtqUr46vdyyYs-mQ/view?usp=sharing",
+                // "https://drive.google.com/file/d/1tbPhCh8zLSg4fxRsVtqUr46vdyyYs-mQ/view?usp=sharing",
+                "https://drive.google.com/file/d/15wMnOnXLv1qopGv105kC33qtSFUVn3oQ/view?usp=sharing",
                 "_blank"
               );
             }}
