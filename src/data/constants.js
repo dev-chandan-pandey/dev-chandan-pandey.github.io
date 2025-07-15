@@ -6,7 +6,9 @@ export const Bio = {
   github: "https://github.com/dev-chandan-pandey",
   // resume:
   //   "https://drive.google.com/file/d/1tbPhCh8zLSg4fxRsVtqUr46vdyyYs-mQ/view?usp=drive_link",
-  resume:"https://drive.google.com/file/d/15wMnOnXLv1qopGv105kC33qtSFUVn3oQ/view?usp=sharing",
+  // resume:"https://drive.google.com/file/d/15wMnOnXLv1qopGv105kC33qtSFUVn3oQ/view?usp=sharing",
+   resume:"https://drive.google.com/file/d/1txPebCgoGlTL7tlBmZAE2mJZL9TsG1lK/view?usp=sharing",
+   
   linkedin: "https://www.linkedin.com/in/erchandanpandey/",
   insta: "https://www.instagram.com/chandanpandey__/",
   // facebook: "https://www.facebook.com/m.geetesh/",
