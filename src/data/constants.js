@@ -159,8 +159,58 @@ export const skills = [
   },
 ];
 
-export const experiences = [
+// export const experiences = [
   
+// ];
+export const experiences = [
+  {
+    role: "Junior Full Stack Developer",
+    company: "Edulab Educational Exchange Pvt Ltd",
+    date: "Sep 2024 - Mar 2025",
+    desc: "• Developed and modified APIs using SQL and TypeORM for enhanced exam portal functionality. • Built 10+ Next.js pages and dynamic components, enhancing user experience and reducing page load time by 25%. • Created image cropping functionality and improved admission management APIs.",
+    skills: [
+      "Next.js",
+      "Express.js",
+      "Node.js",
+      "Formic",
+      "Joi",
+      "Yup",
+      "TypeORM",
+      "Git",
+      "SQL",
+      "Tailwind CSS",
+      "Next.js",
+      "Express.js",
+      "Node.js",
+      "Formic",
+      "Joi",
+      "Yup",
+      "TypeORM",
+      "Git",
+      "SQL",
+      "Tailwind CSS"
+    ],
+    img: "https://edulab.in/static/media/edulablogo2.746e76b023e668d5a9ef.png",
+     doc: "https://drive.google.com/file/d/1NtkT6l1IjFKkTm9onkDLEKTNA3y1GeRv/view" // clickable link
+
+  },
+  {
+    role: "MERN Stack Intern",
+    company: "IPAGE UM SERVICES PVT LTD",
+    date: "Aug 2025 - Present",
+    desc: "• Developed 5+ web modules using MERN stack, improving platform scalability by 30%. • Implemented AWS Lambda, reducing server costs by 20%. • Assisted in developing and maintaining company web applications. • Collaborated with team members on AI modules and automation tasks. • Conducted testing, debugging, and documentation to ensure code quality. • Continuously learned and applied new technologies for performance optimization.",
+    skills: [
+      "React",
+      "Node.js",
+      "AWS Lambda",
+      "AWS API Gateway",
+      "AWS S3",
+      "Tailwind CSS"
+    ],
+    img: "https://ipageums.com/wp-content/uploads/2024/12/image-21-1-1.png",
+    doc: "https://drive.google.com/file/d/11gLphCJ2GHZW7l3RNJLyHG5swDTFXLLB/view" // clickable link
+
+  }
 ];
 
 export const education = [

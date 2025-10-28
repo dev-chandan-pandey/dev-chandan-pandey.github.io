@@ -1,6 +1,30 @@
 import React from 'react'
 import styled from 'styled-components'
-
+const ButtonP = styled.a`
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: ${({ theme }) => theme.text_primary};
+  padding: 12px 16px;
+  border-radius: 8px;
+  background-color: ${({ theme }) => theme.primary};
+  ${({ dull, theme }) =>
+    dull &&
+    `
+        background-color: ${theme.bgLight};
+        color: ${theme.text_secondary};
+        &:hover {
+            background-color: ${theme.bg + 99};
+        }
+    `}
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  &:hover {
+    background-color: ${({ theme }) => theme.primary + 99};
+  }
+`;
 const Document = styled.img`
     display: none;
     height: 70px;
@@ -174,11 +198,21 @@ const ExperienceCard = ({ experience }) => {
                     </>
                 }
             </Description>
-            {experience.doc &&
+            {/* {experience.doc &&
                 <a href={experience.doc} target="new">
                     <Document src={experience.doc} />
                 </a>
-            }
+            } */}
+             
+        {experience.doc && (
+  <ButtonP
+          href={experience.doc}
+          target="_blank" rel="noopener noreferrer"
+          className="project-deployed-link"
+        >
+            📄 View Certificate / Offer Letter
+        </ButtonP>
+)}
         </Card>
     )
 }
