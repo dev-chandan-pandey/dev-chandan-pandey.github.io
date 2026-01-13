@@ -428,7 +428,7 @@ export const projects = [
 }
 ,{
   id: 10,
-  title: "Opinion Trading App (Backend System)",
+  title: "Opinion Trading App",
   description:
     "A backend-driven opinion trading platform that fetches live event data from external APIs and enables real-time trading via WebSockets. The system supports admin-managed events and markets, JWT-based authentication, trade execution, settlement logic, and live updates to connected clients. Designed with scalable MongoDB schemas, role-based access control, and robust logging for production-grade reliability.",
   image:
