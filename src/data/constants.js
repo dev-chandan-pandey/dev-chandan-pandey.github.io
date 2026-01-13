@@ -495,6 +495,48 @@ export const projects = [
   github: "https://github.com/dev-chandan-pandey/House-of-Edtech-",
   webapp: "https://house-of-edtech-ten.vercel.app/",
 }
+,{
+  id: 13,
+  title: "Event Management System",
+  description:
+    "A full-stack event management platform that enables users to create, manage, and participate in events with complex nested data such as multiple sessions and speakers. The system supports role-based authentication, secure CRUD operations, and automated PDF report generation for events. Designed with a scalable backend architecture and a responsive, user-friendly frontend, the application demonstrates strong API design, data modeling, and real-world feature implementation.",
+  image:
+    "https://github.com/dev-chandan-pandey/Assignment-1-Event-Management-System/blob/main/frontend/public/Event-Management-System.png?raw=true",
+  tags: [
+    "React.js",
+    "Chakra UI",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "JWT Authentication",
+    "REST API",
+    "PDF Generation",
+    "Role-Based Access Control"
+  ],
+  category: "web app",
+  github: "https://github.com/dev-chandan-pandey/Assignment-1-Event-Management-System",
+  webapp: "https://assignment-1-event-management-system-c1h4.vercel.app/",
+}
+,{
+  id: 14,
+  title: "React Auto Login Application",
+  description:
+    "A React-based marketing application that automatically authenticates users using a predefined email via external API integration. The app features an auto-login flow, a multi-step user input form, and a responsive client logo carousel in the footer. Built with a strong focus on user experience, responsiveness, and seamless third-party API authentication.",
+  image:
+    "https://github.com/dev-chandan-pandey/Quest-Engineer-1-Assignment/blob/main/quest-form-popup/public/Quest-Engineer-1-Assignment.png?raw=true",
+  tags: [
+    "React.js",
+    "Auto Login",
+    "REST API Integration",
+    "Environment Configuration",
+    "Multi-Step Forms",
+    "Responsive Design",
+    "Carousel UI"
+  ],
+  category: "web app",
+  github: "https://github.com/dev-chandan-pandey/Quest-Engineer-1-Assignment",
+  webapp: "https://quest-engineer-1-assignment.vercel.app/",
+}
 
 ];
 
