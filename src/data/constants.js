@@ -426,6 +426,28 @@ export const projects = [
   github: "https://github.com/dev-chandan-pandey/Full-Stack-Developer-Evaluation-Task-WhatsApp-Web-Clone",
   webapp: "https://full-stack-developer-evaluation-tas.vercel.app/",
 }
+,{
+  id: 10,
+  title: "Opinion Trading App (Backend System)",
+  description:
+    "A backend-driven opinion trading platform that fetches live event data from external APIs and enables real-time trading via WebSockets. The system supports admin-managed events and markets, JWT-based authentication, trade execution, settlement logic, and live updates to connected clients. Designed with scalable MongoDB schemas, role-based access control, and robust logging for production-grade reliability.",
+  image:
+    "https://github.com/dev-chandan-pandey/Assignment-Backend-Development-for-Opinion-Trading-App/blob/main/frontend/public/OpinionTradingApp.png?raw=true",
+  tags: [
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Socket.IO",
+    "JWT Authentication",
+    "REST API",
+    "Real-Time Trading",
+    "Admin Panel",
+    "Logging & Error Handling"
+  ],
+  category: "web app",
+  github: "https://github.com/dev-chandan-pandey/Assignment-Backend-Development-for-Opinion-Trading-App",
+  webapp: "https://assignment-backend-development-for-opinion-trading-app.vercel.app/",
+}
 
 ];
 
