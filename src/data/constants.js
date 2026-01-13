@@ -338,6 +338,94 @@ export const projects = [
     github: "https://github.com/dev-chandan-pandey/Gusty-adjustment-6018",
     webapp: "https://stirring-croquembouche-c5740d.netlify.app/",
   },
+{
+  id: 6,
+  title: "BTC: Up or Down",
+  description:
+    "A full-stack Bitcoin prediction game where users place time-locked directional bids (UP/DOWN) on BTC-USD price movement over 60 seconds. The system locks an entry mid-price at bid time, settles automatically after 60s via a server-side scheduler, and updates balances atomically. Built with strong guarantees around fairness, idempotency, precision, and auditability, including retry handling, PUSH refunds, and manual admin settlement for API outages.",
+  image:
+    "https://github.com/dev-chandan-pandey/BTC-Up-or-Down/blob/main/frontend/src/assets/btc-up-or-down.png?raw=true",
+  tags: [
+    "React",
+    "Vite",
+    "Node.js",
+    "Express.js",
+    "PostgreSQL",
+    "JWT Auth",
+    "REST API",
+    "Scheduler",
+    "Atomic Transactions",
+    "Audit Logs"
+  ],
+  category: "web app",
+  github: "https://github.com/dev-chandan-pandey/btc-up-or-down",
+  webapp: "https://btc-up-or-down.vercel.app/login",
+}
+,{
+  id: 7,
+  title: "Store Rating System",
+  description:
+    "A role-based full-stack web application that allows users to submit and manage ratings for registered stores. The platform supports three roles—System Administrator, Normal User, and Store Owner—each with dedicated dashboards and permissions. Features include secure authentication, role-based access control, store search and rating, admin analytics dashboards, sorting and filtering, and strong form validations following best practices.",
+  image:
+    "https://github.com/dev-chandan-pandey/Roxiler-Systems/blob/main/frontend/src/assets/StoreRatingSystem.png?raw=true",
+  tags: [
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "PostgreSQL",
+    "Role-Based Access Control",
+    "JWT Authentication",
+    "REST API",
+    "Form Validation"
+  ],
+  category: "web app",
+  github: "https://github.com/dev-chandan-pandey/Roxiler-Systems",
+  webapp: "https://assignment-backend-development-for-opinion-trading-app.vercel.app/",
+}
+,{
+  id: 8,
+  title: "Crypto Crash Game",
+  description:
+    "A real-time multiplayer Crash game backend where players bet in USD, converted into cryptocurrency using live market prices, and attempt to cash out before the multiplier crashes. The system features provably fair crash point generation, exponential multiplier progression, simulated crypto wallets, atomic balance handling, and real-time game events powered by WebSockets. The project demonstrates strong backend game logic, crypto price integration, concurrency safety, and production-ready architecture.",
+  image:
+    "https://github.com/dev-chandan-pandey/Crash-Game-with-Crypto-API-and-WebSockets/blob/main/crypto-crash-frontend/public/CryptoCrashGame.png?raw=true",
+  tags: [
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "WebSockets",
+    "Socket.IO",
+    "Crypto API",
+    "Real-Time Systems",
+    "Game Logic",
+    "Provably Fair Algorithm"
+  ],
+  category: "web app",
+  github: "https://github.com/dev-chandan-pandey/Crash-Game-with-Crypto-API-and-WebSockets",
+  webapp: "https://crash-game-with-crypto-api-and-web-sockets-derv0shgs.vercel.app/",
+}
+,{
+  id: 9,
+  title: "WhatsApp Web Clone",
+  description:
+    "A full-stack WhatsApp Web–like chat application that processes simulated WhatsApp Business API webhook payloads and displays real-time conversations. The backend ingests message and status webhooks, stores and updates them in MongoDB, and exposes APIs for conversation retrieval. The frontend replicates the WhatsApp Web experience with responsive chat UI, message status indicators, conversation grouping, and demo message sending with persistent storage.",
+  image:
+    "https://github.com/dev-chandan-pandey/Full-Stack-Developer-Evaluation-Task-WhatsApp-Web-Clone/blob/main/client/src/assets/ChatApp.png?raw=true",
+  tags: [
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Webhook Processing",
+    "REST API",
+    "Chat Application",
+    "Responsive UI",
+    "WebSockets"
+  ],
+  category: "web app",
+  github: "https://github.com/dev-chandan-pandey/Full-Stack-Developer-Evaluation-Task-WhatsApp-Web-Clone",
+  webapp: "https://full-stack-developer-evaluation-tas.vercel.app/",
+}
 
 ];
 
