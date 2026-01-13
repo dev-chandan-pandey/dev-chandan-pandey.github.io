@@ -448,6 +448,53 @@ export const projects = [
   github: "https://github.com/dev-chandan-pandey/Assignment-Backend-Development-for-Opinion-Trading-App",
   webapp: "https://assignment-backend-development-for-opinion-trading-app.vercel.app/",
 }
+,
+{
+  id: 11,
+  title: "Next-Gen CRM System",
+  description:
+    "A scalable, modular CRM platform built for fast-growing startups, featuring role-based access control, real-time notifications, lead lifecycle management, and analytics dashboards. The system supports Admin, Manager, and Sales Executive roles, maintains detailed activity timelines per lead, and delivers real-time updates via WebSockets. Designed with clean architecture, normalized relational schemas, and production-ready APIs.",
+  image:
+    "https://github.com/dev-chandan-pandey/Next-Gen-CRM-System-Challenge/blob/main/frontend2/public/Next-GenCRM.png?raw=true",
+  tags: [
+    "React.js",
+    "Redux Toolkit",
+    "Node.js",
+    "Express.js",
+    "PostgreSQL",
+    "Prisma ORM",
+    "JWT Authentication",
+    "Socket.IO",
+    "CRM System",
+    "Analytics Dashboard"
+  ],
+  category: "web app",
+  github: "https://github.com/dev-chandan-pandey/Next-Gen-CRM-System-Challenge",
+  webapp: "https://next-gen-crm-system-challenge.vercel.app/",
+}
+,{
+  id: 12,
+  title: "House of EdTech",
+  description:
+    "A full-stack EdTech platform built using Next.js 16 and TypeScript, designed to demonstrate scalable, secure, and production-ready application development. The project showcases advanced CRUD operations, server-side rendering, optimized data fetching, and a clean, responsive UI. Built with a strong focus on performance, accessibility, and real-world considerations such as scalability, security, and maintainability, aligning with modern full-stack engineering best practices.",
+  image:
+    "https://raw.githubusercontent.com/dev-chandan-pandey/House-of-Edtech-/main/public/preview.png",
+  tags: [
+    "Next.js",
+    "TypeScript",
+    "React.js",
+    "Node.js",
+    "Tailwind CSS",
+    "PostgreSQL",
+    "MongoDB",
+    "Full-Stack Development",
+    "SSR & SSG",
+    "CI/CD"
+  ],
+  category: "web app",
+  github: "https://github.com/dev-chandan-pandey/House-of-Edtech-",
+  webapp: "https://house-of-edtech-ten.vercel.app/",
+}
 
 ];
 
