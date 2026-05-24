@@ -536,6 +536,167 @@ export const projects = [
   category: "web app",
   github: "https://github.com/dev-chandan-pandey/Quest-Engineer-1-Assignment",
   webapp: "https://quest-engineer-1-assignment.vercel.app/",
+},
+{
+  id: 15,
+  title: "Review & Rating Platform",
+  description:
+    "A modern full-stack company review and rating platform built with Next.js, TypeScript, Node.js, Express.js, and MongoDB. The application allows users to add companies, upload logos, submit reviews and ratings, like reviews, and explore company listings with advanced search, filtering, sorting, and pagination. Designed with a strong focus on responsive UI/UX, performance optimization, and scalable backend architecture.",
+  image:
+    "https://raw.githubusercontent.com/dev-chandan-pandey/Zoronal_Mern_Task/main/frontend/public/preview.png",
+  tags: [
+    "Next.js",
+    "TypeScript",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Tailwind CSS",
+    "ShadCN UI",
+    "React Query",
+    "Cloudinary",
+    "JWT Authentication"
+  ],
+  category: "web app",
+  github: "https://github.com/dev-chandan-pandey/Zoronal_Mern_Task",
+  webapp: "https://zoronal-mern-task-e6il.vercel.app/",
+},
+{
+  id: 16,
+  title: "SyncUp Realtime Coaching Feed",
+  description:
+    "A realtime coaching feed platform built with Next.js, Node.js, Express, MongoDB Atlas, Redis Cloud, and Socket.IO. The application delivers instant feed updates using WebSockets, implements Redis cache-aside strategy for optimized API performance, and ensures reliable realtime synchronization with reconnect handling and duplicate event prevention. Designed with scalability, responsiveness, and production-grade realtime architecture in mind.",
+  image:
+    "https://raw.githubusercontent.com/dev-chandan-pandey/SYNCUP/main/client/public/preview.png",
+  tags: [
+    "Next.js",
+    "TypeScript",
+    "Node.js",
+    "Express.js",
+    "MongoDB Atlas",
+    "Redis",
+    "Socket.IO",
+    "WebSockets",
+    "Realtime Systems",
+    "Caching"
+  ],
+  category: "web app",
+  github: "https://github.com/dev-chandan-pandey/SYNCUP",
+  webapp: "https://syncup-self.vercel.app/",
+},
+{
+  id: 17,
+  title: "Smart Bookmark App",
+  description:
+    "A modern realtime bookmark management application built with Next.js App Router, Supabase, and Tailwind CSS. The platform uses Google OAuth authentication, supports private user-specific bookmarks, and delivers realtime synchronization across multiple tabs using Supabase Realtime. Designed with a clean responsive UI, secure authentication flow, and scalable cloud-based architecture deployed on Vercel.",
+  image:
+    "https://raw.githubusercontent.com/dev-chandan-pandey/smart-bookmark-app/main/public/preview.png",
+  tags: [
+    "Next.js",
+    "Supabase",
+    "Google OAuth",
+    "Tailwind CSS",
+    "Realtime Sync",
+    "App Router",
+    "Authentication",
+    "Vercel",
+    "Cloud Database",
+    "Responsive UI"
+  ],
+  category: "web app",
+  github: "https://github.com/dev-chandan-pandey/smart-bookmark-app",
+  webapp: "https://smart-bookmark-app-lime-zeta.vercel.app/",
+},
+{
+  id: 18,
+  title: "Students Management System",
+  description:
+    "A full-stack student management platform built with React, TypeScript, NestJS, and PostgreSQL, featuring complete CRUD functionality with validation, pagination, sorting, search, and Excel export capabilities. The application demonstrates production-grade frontend and backend architecture using DTO validation, repository pattern, Swagger API documentation, and responsive UI design with strong focus on scalability, maintainability, and user experience.",
+  image:
+    "https://raw.githubusercontent.com/dev-chandan-pandey/Students-Management/main/frontend/public/preview.png",
+  tags: [
+    "React.js",
+    "TypeScript",
+    "NestJS",
+    "PostgreSQL",
+    "TypeORM",
+    "Tailwind CSS",
+    "Swagger API",
+    "CRUD Operations",
+    "Excel Export",
+    "REST API"
+  ],
+  category: "web app",
+  github: "https://github.com/dev-chandan-pandey/Students-Management",
+  webapp: "https://students-management-beta.vercel.app/",
+},
+{
+  id: 19,
+  title: "Merchant Refund Portal",
+  description:
+    "A production-grade full-stack refund management system where merchants can securely view transactions and initiate refunds with strict backend eligibility validation. Built using Next.js, NestJS, MongoDB Atlas, and TypeScript, the platform supports JWT authentication, server-side filtering, transaction timelines, partial refunds, pagination, and robust refund lifecycle tracking. The system emphasizes scalable architecture, optimized querying, and a professional merchant-focused user experience.",
+  image:
+    "https://raw.githubusercontent.com/dev-chandan-pandey/Merchant-Refund-Portal/main/frontend/public/preview.png",
+  tags: [
+    "Next.js",
+    "NestJS",
+    "TypeScript",
+    "MongoDB Atlas",
+    "JWT Authentication",
+    "React Query",
+    "Refund Management",
+    "REST API",
+    "Server-Side Filtering",
+    "Transaction Timeline"
+  ],
+  category: "web app",
+  github: "https://github.com/dev-chandan-pandey/Merchant-Refund-Portal",
+  webapp: "https://merchant-refund-portal-lime.vercel.app/",
+},
+{
+  id: 20,
+  title: "GhostChat – Anonymous Random Chat System",
+  description:
+    "A full-stack realtime anonymous one-to-one chat platform built with React, Node.js, Socket.IO, and PostgreSQL. The system features deterministic matchmaking, WebSocket-based realtime messaging, anonymous temporary sessions, skip/rematch functionality, disconnect handling, and rate-limited messaging for reliability and abuse prevention. Designed with production-ready architecture, scalable matchmaking considerations, and clean lifecycle state management.",
+  image:
+    "https://raw.githubusercontent.com/dev-chandan-pandey/Anonymous-Random-Text-Chat-System/main/client/public/preview.png",
+  tags: [
+    "React.js",
+    "TypeScript",
+    "Node.js",
+    "Express.js",
+    "Socket.IO",
+    "WebSockets",
+    "PostgreSQL",
+    "Realtime Chat",
+    "Matchmaking Engine",
+    "Tailwind CSS"
+  ],
+  category: "web app",
+  github: "https://github.com/dev-chandan-pandey/Anonymous-Random-Text-Chat-System",
+  webapp: "https://anonymous-random-text-chat-system.vercel.app/",
+},
+{
+  id: 21,
+  title: "Weather Analytics Dashboard",
+  description:
+    "A responsive real-time weather analytics dashboard built with React, TypeScript, and Redux Toolkit, featuring multi-city weather tracking, hourly and daily forecasts, interactive charts, and intelligent client-side caching. The application provides real-time weather updates, city search with autocomplete, persistent favorites, and temperature unit toggling while optimizing API usage through freshness-based caching strategies.",
+  image:
+    "https://raw.githubusercontent.com/dev-chandan-pandey/Weather-Analytics-Dashboard/main/public/preview.png",
+  tags: [
+    "React.js",
+    "TypeScript",
+    "Redux Toolkit",
+    "Weather API",
+    "Recharts",
+    "Realtime Data",
+    "Caching",
+    "Analytics Dashboard",
+    "Responsive UI",
+    "API Integration"
+  ],
+  category: "web app",
+  github: "https://github.com/dev-chandan-pandey/Weather-Analytics-Dashboard",
+  webapp: "https://weather-analytics-dashboard-mauve.vercel.app/",
 }
 
 ];
