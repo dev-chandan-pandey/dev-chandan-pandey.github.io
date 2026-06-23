@@ -704,7 +704,7 @@ export const projects = [
   description:
     "A dynamic dashboard builder inspired by tools like Canva and Figma, allowing users to create customizable dashboards using draggable and resizable widgets. The application supports rich text editing, image uploads, interactive charts, and persistent layout management. Built with React, React Grid Layout, and Chart.js, the platform enables users to save and restore dashboard configurations through a scalable backend API and cloud database integration.",
   image:
-    "https://raw.githubusercontent.com/dev-chandan-pandey/dashboard-builder/main/client/public/src/assets/image.png",
+    "https://dashboard-builder-zeta-rose.vercel.app/DashboardBuilder.png",
   tags: [
     "React.js",
     "Vite",
