@@ -697,6 +697,29 @@ export const projects = [
   category: "web app",
   github: "https://github.com/dev-chandan-pandey/Weather-Analytics-Dashboard",
   webapp: "https://weather-analytics-dashboard-mauve.vercel.app/",
+},
+{
+  id: 22,
+  title: "Dashboard Builder",
+  description:
+    "A dynamic dashboard builder inspired by tools like Canva and Figma, allowing users to create customizable dashboards using draggable and resizable widgets. The application supports rich text editing, image uploads, interactive charts, and persistent layout management. Built with React, React Grid Layout, and Chart.js, the platform enables users to save and restore dashboard configurations through a scalable backend API and cloud database integration.",
+  image:
+    "https://raw.githubusercontent.com/dev-chandan-pandey/dashboard-builder/main/client/public/src/assets/image.png",
+  tags: [
+    "React.js",
+    "Vite",
+    "React Grid Layout",
+    "React Quill",
+    "Chart.js",
+    "Node.js",
+    "Express.js",
+    "Turso Database",
+    "Drag & Drop",
+    "Dashboard Builder"
+  ],
+  category: "web app",
+  github: "https://github.com/dev-chandan-pandey/dashboard-builder",
+  webapp: "https://dashboard-builder-zeta-rose.vercel.app/",
 }
 
 ];
