@@ -720,6 +720,29 @@ export const projects = [
   category: "web app",
   github: "https://github.com/dev-chandan-pandey/dashboard-builder",
   webapp: "https://dashboard-builder-zeta-rose.vercel.app/",
+},
+{
+  id: 23,
+  title: "Project Collaboration & Task Management System",
+  description:
+    "A production-ready full-stack project management platform inspired by Jira, Trello, and ClickUp. Built with Next.js, Node.js, Express.js, MongoDB, and TypeScript, the application enables teams to manage projects, assign tasks, collaborate through an interactive Kanban board, monitor activity timelines, and visualize project analytics. It features JWT authentication, role-based access control, advanced search and filtering, optimistic UI updates, pagination, and a scalable REST API architecture.",
+  image:
+    "https://project-management-system-wine-zeta.vercel.app/preview.png",
+  tags: [
+    "Next.js",
+    "TypeScript",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "JWT Authentication",
+    "Zustand",
+    "DnD Kit",
+    "Kanban Board",
+    "Recharts"
+  ],
+  category: "web app",
+  github: "https://github.com/dev-chandan-pandey/project-management-system",
+  webapp: "https://project-management-system-wine-zeta.vercel.app/",
 }
 
 ];
