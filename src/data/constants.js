@@ -743,8 +743,53 @@ export const projects = [
   category: "web app",
   github: "https://github.com/dev-chandan-pandey/project-management-system",
   webapp: "https://project-management-system-wine-zeta.vercel.app/",
-}
-
+},
+{
+  id: 24,
+  title: "Fastor – Food Ordering App",
+  description:
+    "A full-stack food ordering application built with React, Vite, Node.js, Express.js, and MongoDB. The platform features a responsive food-ordering interface, OTP-based authentication using Twilio Verify, product and order management, and server-side order price calculation. Designed with a modular REST API architecture, secure authentication workflows, and backend unit tests for pricing utilities.",
+  image:
+    "https://fastor-app-seven.vercel.app/preview.png",
+  tags: [
+    "React.js",
+    "Vite",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Twilio Verify",
+    "JWT Authentication",
+    "REST API",
+    "Food Ordering",
+    "Unit Testing"
+  ],
+  category: "web app",
+  github: "https://github.com/dev-chandan-pandey/fastor-app",
+  webapp: "https://fastor-app-seven.vercel.app/",
+},
+{
+  id: 25,
+  title: "Brahmaverse AI – CRM Lead Management",
+  description:
+    "A full-stack CRM lead management platform designed to help counselors manage student enquiries and connect with potential leads. Built with React, TypeScript, Node.js, Express.js, and MongoDB, the application features JWT authentication, protected dashboards, enquiry creation, public lead discovery, lead claiming, search, and dashboard statistics. It combines a responsive interface with validated REST APIs and a modular frontend-backend architecture.",
+  image:
+    "https://raw.githubusercontent.com/dev-chandan-pandey/Brahmaverse-AI/main/frontend/public/preview.png",
+  tags: [
+    "React.js",
+    "TypeScript",
+    "Vite",
+    "Tailwind CSS",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "JWT Authentication",
+    "TanStack Query",
+    "CRM"
+  ],
+  category: "web app",
+  github: "https://github.com/dev-chandan-pandey/Brahmaverse-AI",
+  webapp: "https://brahmaverse-ai.vercel.app/",
+},
 ];
 
 export const TimeLineData = [
